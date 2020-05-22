@@ -77,4 +77,10 @@ public class User implements UserDetails
         this.recipes = new ArrayList<>();
         this.roles = new String[]{"USER"};
     }
+
+    public User setRoles(String[] roles)
+    {
+        this.roles=roles;
+        return this;
+    }
 }
