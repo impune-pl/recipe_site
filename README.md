@@ -10,7 +10,7 @@ Simple multi-user recipe database. Project made with vue.js, spring boot and mon
 5. Open new terminal window in the directory, and execute command `.\mvnw spring-boot:run`
 6. Visit http://localhost:8081/ to test the application.
 
-Default administrator account uses credentials:
-username - test
-password - 1234test
+Default administrator account uses credentials:  
+username - test  
+password - 1234test  
 It can be manually changed in database. You can manually promote users to administrator role, by changing `"ROLE_USER"` to `"ROLE_ADMINISTRATOR"` in database.
